@@ -1,0 +1,5 @@
+FROM python:3.4.2-onbuild
+
+WORKDIR /root
+
+ENTRYPOINT [ "aws" ]
