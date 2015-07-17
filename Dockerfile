@@ -1,4 +1,4 @@
-FROM python:3.4.2-onbuild
+FROM tomologic/python:3-onbuild
 
 RUN apt-get update && \
     apt-get install -y jq && \
